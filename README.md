@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+05th October 2020
 
 ### Project Title
-Replace the Project Title
+Udacity Programming for Datascience using Python Nanodegree  - Bike share Project
 
 ### Description
-Describe what your project is about and what it does
+The project describes the bikeshare traffic and statistics of three cities (Newyork, Washington and Chicago)
+from January to July and during various weekdays and weekends.
 
 ### Files used
-Include the files used
+Bike share data files of chicago, washington and new_york_city.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+None
