@@ -25,6 +25,8 @@ def get_filters():
         else:
             print("Not a valid input. Please input either "
                   "Chicago, New York, or Washington.")
+            print ("Please ensure you type the full city name and there is space between the words new and york , incase you choose"
+                    "new york city \n")      
     print("You have chosen {} as your city.\n".format(city_name.lower()))
 
     # get user input for month (all, january, february, ... , june)
