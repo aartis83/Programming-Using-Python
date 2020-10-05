@@ -47,11 +47,11 @@ def get_filters():
     DAY_DATA =   ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday',
                    'Friday','Saturday','All']
     day_name = ''
-    while day_name.title() not in DAY_DATA:
+    while day_name.lower() not in DAY_DATA:
         day_name = input("\nEnter the name of the day to filter data or Enter"
                             " all to apply no filter:\n")
-        if day_name.title() in DAY_DATA:
-            day = day_name.title()
+        if day_name.lower() in DAY_DATA:
+            day = day_name.lower()
         else:
             print("Not a valid input. Please input either all"
                       "or days from Sunday to Saturday.")
@@ -90,7 +90,7 @@ def load_data(city, month, day):
         df = df[df['month'] == month]
 
     # filter by day of week if applicable
-    if day != 'All':
+    if day != 'all':
         # filter by day of week to create the new dataframe
         df = df[df['day_of_week'] == day.title()]
 
