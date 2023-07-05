@@ -2,7 +2,7 @@
 05th October 2020
 
 ### Project Title
-Udacity Programming for Datascience using Python Nanodegree  - Bike share Project
+Bike share Project
 
 ### Description
 The program is developed to allow the user to explore the bikeshare system database and retrieve statistics from the available database of the US cities bikeshare info.
